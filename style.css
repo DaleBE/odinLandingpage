@@ -1,13 +1,17 @@
 * {
-    box-sizing: border-box;
+    box-sizing: border-box;   
+    /* outline: auto; */
     font-family: Arial, Helvetica, sans-serif;
-    outline: auto;
 }
 
 body {
     display: flex;
     flex-direction: column;
-    gap: 2px;
+    margin: 0px;
+}
+
+a {
+
 }
 
 .head {
@@ -21,11 +25,15 @@ body {
 
 .headLogo {
     display: flex;
+    font-size: 48px;
+    font-weight: bolder;
+    margin-left: 20px;
+    color: #E5E7EB;
 }
 
 .headLinks{
     display: flex;
-
+    margin-right: 30px;
 }
 
 .mainBox {
@@ -35,21 +43,64 @@ body {
 
 .section1 {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    gap: 40px;
     height: 400px;
+    background-color: #1F2937;
+}
+
+.mainInfo {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    gap: 10px;
+}
+
+.mainTitle {
+    font-size: 24px;
+    font-weight: normal;
+    color: #F9FAF8;
+}
+
+.greeting{
+    font-size: 18px;
+    color: #E5E7EB;
+    flex-wrap: wrap;
+}
+
+.infoImg {
+    height: 350px;
+    width: auto;
 }
 
 .section2 {
     display: flex;
     flex-direction: column;
+    gap: 15px;
     align-items: center;
     justify-content: center;
     height: 400px;
 }
+.sect2title {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
 
 .pictCells {
     display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+
+.cellImg {
+    height: 150px;
+    width: 150px;
+    border-radius: 5%;
+}
+
+.cellDesc {
 
 }
 
@@ -59,6 +110,17 @@ body {
     align-items: center;
     justify-content: center;
     height: 400px;
+    background-color: #E5E7EB;
+}
+
+.quoteText {
+    font-style: italic;
+    font-weight: lighter;
+    font-size: 36px;
+}
+
+.quoteAuth {
+
 }
 
 .section4 {
@@ -69,6 +131,7 @@ body {
 }
 .foot {
     display: flex;
+    justify-content: center;
     height: 60px;
     background-color: #1F2937;
     color: white;
