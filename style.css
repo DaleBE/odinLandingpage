@@ -10,12 +10,8 @@ body {
     margin: 0px;
 }
 
-a {
-
-}
-
-.button {
-
+img {
+    border: 1px solid #1F2937;
 }
 
 .head {
@@ -38,6 +34,11 @@ a {
 .headLinks{
     display: flex;
     margin-right: 30px;
+}
+
+.links {
+    color: #E5E7EB;
+    text-decoration: none;
 }
 
 .mainBox {
@@ -63,7 +64,7 @@ a {
 
 .mainTitle {
     font-size: 24px;
-    font-weight: normal;
+    font-weight: bold;
     color: #F9FAF8;
 }
 
@@ -71,6 +72,19 @@ a {
     font-size: 18px;
     color: #E5E7EB;
     flex-wrap: wrap;
+}
+
+.button1 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    font-size: 15px;
+    border-radius: 5px;
+}
+
+.button1:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 
 .infoImg {
@@ -106,7 +120,8 @@ a {
 }    
 
 .cellDesc {
-
+    width: 150px;
+    flex-wrap: wrap;
 }
 
 .section3 {
@@ -134,21 +149,31 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    gap: 10px;
     border-radius: 5px;
     background-color: #3882F6;
-    height: 175px;
+    color: #E5E7EB;
+    height: 150px;
     margin: 80px 120px;
 }
 
-.buttText {
+.button2 {
+    background-color: #3882F6;
+    color: #E5E7EB;
+    border: 1px solid #E5E7EB;
+    font-size: 15px;
+    border-radius: 5px;
 }
 
-.button2 {
+.button2:hover {
+    background-color: #E5E7EB;
+    color: #3882F6;
 }
 
 .foot {
     display: flex;
     justify-content: center;
+    align-items: center;
     height: 60px;
     background-color: #1F2937;
     color: white;
