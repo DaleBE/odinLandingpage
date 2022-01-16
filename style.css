@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;   
-    /* outline: auto; */
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -24,7 +23,6 @@ img {
 }
 
 .headLogo {
-    display: flex;
     font-size: 48px;
     font-weight: bolder;
     margin-left: 20px;
@@ -33,12 +31,15 @@ img {
 
 .headLinks{
     display: flex;
-    margin-right: 30px;
+    gap: 20px;
+    width: 20%;
+    margin-right: 20px;
+    list-style: none;
 }
 
 .links {
-    color: #E5E7EB;
     text-decoration: none;
+    color: #E5E7EB;
 }
 
 .mainBox {
